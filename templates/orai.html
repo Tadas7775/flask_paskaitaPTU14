@@ -8,6 +8,19 @@
 
 <h1>Orai karsti, vasra gera, bet mokintis sunku</h1>
 
+<h3> {{ orask }}</h3>
+
+
+<h3> {{ valandinis }}</h3>
+<hr/>
+{%  x = 0   %}
+{%  for x in range(23)   %}
+<p> {{ valandinis[x] }}</p>
+{%  x += 1   %}
+{% endfor %}
+<hr/>
+
+
 <a href="/">back to first web</a>
 
 </body>
