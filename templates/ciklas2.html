@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ciklas</title>
+</head>
+<body>
+
+<form action="#" method="post">
+  <p>Vardas:</p>
+  <p><input type="text" name="laukelis2"/></p>
+  <p><input type="submit" value="submit"/></p>
+</form>
+
+
+
+
+
+<h3>Lyginiai</h3>
+{%  for x in range(10)   %}
+{% if x % 2 == 0 %}
+<p> {{ x  }}</p>
+<p> {{ x  }}</p>
+{% endif %}
+{% endfor %}
+
+
+<hr/>
+{%  for x in range(5)   %}
+<p> {{ x }}</p>
+{% endfor %}
+<hr/>
+
+<a href="/">back to first web</a>
+</body>
+</html>
